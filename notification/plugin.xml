@@ -1,0 +1,14 @@
+<plugin name='notification' version='0.1' grailsVersion='2.4 &gt; *'>
+  <author>Jorge Aguilera</author>
+  <authorEmail>jorge.aguilera@puravida-software.com</authorEmail>
+  <title>Notification Plugin</title>
+  <description>Async email to admin, users or external customer with a custom view.
+</description>
+  <documentation>http://grails.org/plugin/notification</documentation>
+  <type>NotificationGrailsPlugin</type>
+  <resources>
+    <resource>es.puravida.notification.Notification</resource>
+    <resource>es.puravida.notification.NotificationJob</resource>
+    <resource>es.puravida.notification.NotificationService</resource>
+  </resources>
+</plugin>
